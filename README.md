@@ -1,4 +1,4 @@
-# 👩‍💻 Velkommen til kodeverksted! 🧑‍💻
+# 👩‍💻 Velkommen til kodeverkstedet! 🧑‍💻
 
 Du har nå fått et lite utgangspunkt for en nettside, og målet er enkelt: **Lek deg frem og utforsk hvordan nettsiden er bygd opp**!  
 Du trenger ingen forkunnskaper – bruk nysgjerrighet som verktøy.
