@@ -1,13 +1,12 @@
 
 
-.profile-img{
+.profile-img {
     height: auto;
     max-width: 300px;
-
-    img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: center center;
-    }
+}
+.profile-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
 }

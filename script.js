@@ -1,7 +1,10 @@
 
 renderPage();
+// Her kjører vi hovedoppsettet til nettsiden. I hver av HTML-taggene er det funksjoner som
+// gir (returnerer) HTML-kode. 
 function renderPage(){
- document.body.innerHTML = /*HTML*/`
+ const app = document.getElementById('app');
+    app.innerHTML = /*HTML*/`
     <header>
         ${createHeader()}
     </header>
@@ -16,6 +19,7 @@ function renderPage(){
  `;
 }
 
+// Her genereres det som er på toppen av siden, også kjent som "header".
 function createHeader(){
     return /*HTML*/`
         <section>
@@ -24,12 +28,13 @@ function createHeader(){
     `;
 }
 
+// Her genereres hovedinnholdet på siden. 
 function createMain(){
     return /*HTML*/`
         <section>
-            <h1>Mitt navn er ____</h1>
+            <h1>Mitt navn er [ditt navn her]</h1>
             <h2>og velkommen til min nettside.</h2>
-            
+
             <div class="profile-img">
                 <img src="default_profile_img.jpg" alt="profilbildet">
             </div>
@@ -39,10 +44,12 @@ function createMain(){
     `;
 }
 
+// Her genereres det som er i bunn av siden, også kjent som en "footer".
 function createFooter(){
     return /*HTML*/`
         <section>
-            
+            <p>Kontakt meg på: epost@eksempel.no</p>
         </section>
     `;
 }
+
