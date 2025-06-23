@@ -29,6 +29,7 @@ function createMain(){
         <section>
             <h1>Mitt navn er ____</h1>
             <h2>og velkommen til min nettside.</h2>
+            
             <div class="profile-img">
                 <img src="default_profile_img.jpg" alt="profilbildet">
             </div>
